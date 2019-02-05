@@ -15,7 +15,7 @@ public class Main {
 	public static  Main instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMONPROXY)
-	public static CommonProxy common;
+	public static CommonProxy proxy;
 
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {}

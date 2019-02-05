@@ -1,5 +1,7 @@
 package craftlabs.tutorialmod.proxy;
 
-public class CommonProxy {
+import net.minecraft.item.Item;
 
+public class CommonProxy {
+	public void registerItemRender(Item item, int meta, String id) {}
 }
