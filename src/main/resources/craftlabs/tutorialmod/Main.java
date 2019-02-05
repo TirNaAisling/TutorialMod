@@ -25,4 +25,5 @@ public class Main {
 	
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event) {}
+	
 }
